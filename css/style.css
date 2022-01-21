@@ -1,0 +1,85 @@
+body {
+  position: relative;
+}
+
+svg {
+  height: 940px;
+}
+
+
+.valve__close {
+  fill: #FFFFFF;
+  stroke:#000000;
+}
+
+.valve__open {
+  fill: #00AF00;
+  stroke:#000000;
+}
+
+.pump__off {
+  fill: #FFFFFF;
+  stroke:#000000;
+}
+
+.pump__on {
+  fill: #00AF00;
+  stroke:#000000;
+}
+
+.text {
+  font-family:'ArialMT';
+  font-size:12px;
+}
+
+.pipeline__on {
+  fill: #0000FF;
+  stroke:#000000;
+  stroke-miterlimit:10;
+}
+
+.pipeline__off {
+  fill:#E6E6E6;
+  stroke:#000000;
+  stroke-miterlimit:10;
+}
+
+.flow__on {
+  fill:#00AF00;
+  stroke:#000000;
+  stroke-miterlimit:10;
+}
+
+.flow__off {
+  fill: #FFFFFF;
+  stroke: #000000;
+  stroke-miterlimit: 10;
+}
+
+.modal {
+  position: absolute; 
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(196, 196, 196, 0.5);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.modal__box {
+  width: 400px;
+  height: 400px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.close__window {
+  position: absolute;
+  right: 25px;
+  top: 20px;
+}
