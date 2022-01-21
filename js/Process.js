@@ -32,7 +32,6 @@ export class Process {
       }
       this.data.levelValue += this.data.inputValue / 3600;
       this.data.levelIndex = this.data.levelValue * 100 / 2000; 
-      console.log(this.data);
       this.render();
     }, 1000)
   }
@@ -54,7 +53,6 @@ export class Process {
       }
       this.data.levelValue -= this.data.pumpValue / 3600;
       this.data.levelIndex = this.data.levelValue * 100 / 2000; 
-      console.log(this.data);
       this.render();
     }, 1000)
   }
